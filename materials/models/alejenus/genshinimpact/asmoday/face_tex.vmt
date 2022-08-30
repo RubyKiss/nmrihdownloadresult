@@ -1,0 +1,12 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/alejenus/genshinimpact/asmoday/face_tex"
+	"$surfaceprop" "Flesh"
+
+	"$lightwarptexture" "models/alejenus/genshinimpact/asmoday/warp"
+	"$phong"	"1"
+	$rimlight 1
+	$rimlightexponent 15
+	$rimlightboost 0.5
+	$rimlightmask 1
+}

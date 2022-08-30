@@ -1,0 +1,40 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/alejenus/genshinimpact/asmoday/1"
+	"$nodecal" 1
+	"$nocull" 1
+	"$bumpmap" "models/alejenus/genshinimpact/asmoday/normal"
+
+	"$lightwarptexture" "models/alejenus/genshinimpact/asmoday/warp"
+
+	"$phong" "1"
+	"$phongboost"	"0"
+	"$phongalbedotint" "1"
+	"$phongexponenttexture" "models/alejenus/genshinimpact/asmoday/phong_exp"
+	"$phongfresnelranges"	"[1 .1 .1]"
+
+	"$rimlight"               "0"
+	"$rimlightexponent"       "3"
+	"$rimlightboost"          "4"
+	"$alphatest" 1
+
+Proxies
+{
+TextureScroll
+{
+texturescrollvar $basetexturetransform
+texturescrollrate 0.5
+texturescrollangle 100.00
+}
+Sine
+{
+"resultVar"	"$alpha"
+"sineperiod"	1
+"sinemin"		0.3
+"sinemax"	1
+"timeoffset"	2220
+}
+}
+}
+
+

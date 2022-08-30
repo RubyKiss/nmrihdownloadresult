@@ -1,0 +1,22 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/alejenus/genshinimpact/asmoday/2"
+	"$nodecal" 1
+	"$nocull" 0
+	"$bumpmap" "models/alejenus/genshinimpact/asmoday/normal"
+
+	"$lightwarptexture" "models/alejenus/genshinimpact/asmoday/warp"
+
+	"$phong" "1"
+	"$phongboost"	".1"
+	"$phongalbedotint" "1"
+	"$phongexponenttexture" "models/alejenus/genshinimpact/asmoday/phong_exp"
+	"$phongfresnelranges"	"[1 .1 .1]"
+
+	"$rimlight"               "1"
+	"$rimlightexponent"       "3"
+	"$rimlightboost"          "4"
+	"$alphatest" 1
+}
+
+
